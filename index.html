@@ -4,17 +4,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>*UXSW - User Experience workshops and talks in the South West, UK</title>
+        <title>UXSW - User Experience workshops and talks in the South West, UK</title>
         <meta name="description" content="User Experience workshop to explore methods for design, information architecture and UI design.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" src="http://normalize-css.googlecode.com/svn/trunk/normalize.css" />
+        <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
+
 <style type="text/css">
 html { 
 	font-size: 18px;
 	line-height: 1.5em;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	color: #444;
+	font-family: 'Droid Serif', serif;
+	color: #52574c;
 }
 body {
 	margin: 0;
@@ -22,13 +24,10 @@ body {
 h1, h2, h3 {
 	margin-top: 0;
 	margin-bottom: 0.5em;
-}
-h1:after,
-h2:after,
-h3:after {
-	content:'/';
-	margin-left: 0.2em;
-}
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}    
 a {
 	color: #e34a23;
 	text-decoration: none;
@@ -44,27 +43,6 @@ a:focus {
 .no-bullet {
 	list-style-type: none;
 	padding-left: 0.5em;
-}
-.panel {
-	left: -15.6em;
-	background: rgba(0,0,0,0.7);
-	z-index: 99;
-	margin-top: 2em;
-	position: fixed;
-}
-.panel .menu--close {
-	background: rgba(0,0,0,0.9);
-}
-.panel a {
-	font-family: proxima-nova, Helvetica, sans-serif !important;
-	display: block;
-	padding: 0.3em 0.5em;
-	color: #FFF;
-}
-.panel a:hover,
-.panel a:focus {
-	background: #333;
-	color: #e34a23;
 }
 .nav__persistent {
 	position: fixed;
@@ -82,9 +60,8 @@ a:focus {
 }
 .branding,
 .contact {
-	background: #e34a23;
+	background: #B4CFB7;
 	padding: 1em 0;
-	color: #FFF;
 }
 .branding a,
 .contact a {
@@ -131,7 +108,7 @@ a:focus {
 }
 
 .cb h2 {
-	font-size: 3em;
+	font-size: 2em;
 	line-height: 1em;
 }
 .intro-intro {
@@ -144,10 +121,9 @@ a:focus {
     position: relative;
 }
 .intro-intro h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 	line-height: 1.2em;
 	margin-bottom: 0;
-	display: inline;
 }
 .secondary {
 	font-size: 2.5em;
@@ -158,7 +134,7 @@ a:focus {
 	font-size: 1.5em;
 	margin: 0.5em 0 0 0;
 	line-height: 1.5em;
-	background: #e5e5e5;
+	background: #B4CFB7;
 	padding: 0.5em;
 	font-style: italic;
 }
@@ -167,6 +143,7 @@ a:focus {
 	padding: 0;
 	font-size: 0.9em;
 	text-align: left;
+	color: #fff;
 }
 @media screen and (min-width: 1100px) {
 	.intro-intro .tertiary {
@@ -217,7 +194,7 @@ p {
 }
 
 .highlight-block {
-	background: #e34a23;
+	background: #de9480;
 	margin-left: -3em;
 	margin-right: -3em;
 	padding: 1em 3em;
@@ -275,6 +252,14 @@ p {
 	color: #777;
 	font-style: italic;
 }
+.centred {
+	text-align: center;
+	margin: 0 auto;
+}
+.logo {
+	display: block;
+	margin-bottom: 1em;
+	}
 
 @media screen and (min-width: 800px) {
 /* ====== media ====== */
@@ -308,7 +293,8 @@ p {
     <div class="intro-intro">
     	<div class="cb">
     	<div class="intro__tag">
-    		<h1>UXSW - User Experience talks and workshops in the South West</h1>
+    	<img src="img/uxsw-logo.gif" alt="UXSW" class="centred logo">
+    		<h1 class="centred">User Experience events in the South West</h1>
     	<div class="wider tertiary">
     		<p>This is a new idea and looking for your feedback.</p>
     	</div>
@@ -343,7 +329,7 @@ p {
         	<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{background: transparent; clear:left; font:16px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
