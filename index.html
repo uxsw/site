@@ -257,6 +257,11 @@ p {
 	text-align: center;
 	margin: 0 auto;
 }
+.feedback {
+	background: #f3f3f3;
+	margin: auto -3em 1em -3em;
+	padding: 1em;
+}
 .logo {
 	display: block;
 	margin-bottom: 1em;
@@ -271,6 +276,23 @@ p {
 .media .img {float:left; margin-right: 2em;}
 .media .img img{display:block;}
 .media .imgExt{float:right; margin-left: 1em;}
+}
+
+/*overwrite Mailchip form styles*/
+
+#mc_embed_signup .button {
+	height: 48px;
+	background: #0CB3C2;
+	border-bottom: 2px solid #05838F;
+}
+#mc_embed_signup .button:hover,
+#mc_embed_signup .button:focus {
+	background: #05838F;
+}
+#mc_embed_signup .mc-field-group input {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 3px;
 }
 </style>
         
@@ -328,9 +350,12 @@ p {
         	
         	<p>So, it's all wonderfully vague at the moment, but I know the interest is out there so please let me know your opinions so I can try and ensure it's going to be something that is as valuable as possible for people.</p>
         	
-        	<p>     	
+        	<div class="feedback centred">
+        	<p>Send your feedback, ideas and suggestions to <a href="mailto:john@uxsw.co.uk">john@uxsw.co.uk</a> or <a href="https://twitter.com/UXsouthwest" title="UXSW on twitter">@UXsouthwest</a><br />
+        	&amp; please sign up for the newsletter to be kept posted as this gets more organised.</p> 	
+        	</div>
         	<div class="highlight-block">
-        	<p>Send your feedback, ideas and suggestions to <a href="mailto:john@uxsw.co.uk">john@uxsw.co.uk</a> or @john_cowen.</p>
+        	
         	<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
