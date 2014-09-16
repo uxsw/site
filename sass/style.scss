@@ -127,23 +127,23 @@
 		}
 		
 		&.major {
-			border-bottom-width: 1px;
-			border-color: $color-border;
-			border-style: solid;
-			border-top-width: 1px;
-			margin-bottom: 2em;
-			padding: 4em 0;
+			//border-bottom-width: 1px;
+			//border-color: $color-border;
+			//border-style: solid;
+			//border-top-width: 1px;
+			//margin-bottom: 2em;
+			padding: 2em 0;
 			position: relative;
 			
 			&:before,
 			&:after {
-				background: $color-border;
-				content: '';
-				display: block;
-				height: 1px;
-				left: 0;
-				position: absolute;
-				width: 100%;
+				//background: $color-border;
+				//content: '';
+				//display: block;
+				//height: 1px;
+				//left: 0;
+				//position: absolute;
+				//width: 100%;
 			}
 			
 			&:before {
@@ -565,7 +565,7 @@
 
 	.box {
 		background: $color-bg;
-		border: solid 1px $color-border;
+		border-top: solid 1px $color-border;
 		margin-bottom: 2em;
 		padding: 3.5em;
 		

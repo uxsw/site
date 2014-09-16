@@ -103,21 +103,8 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.075em; }
   header.major {
-    border-bottom-width: 1px;
-    border-color: rgba(224, 224, 224, 0.75);
-    border-style: solid;
-    border-top-width: 1px;
-    margin-bottom: 2em;
-    padding: 4em 0;
+    padding: 2em 0;
     position: relative; }
-    header.major:before, header.major:after {
-      background: rgba(224, 224, 224, 0.75);
-      content: '';
-      display: block;
-      height: 1px;
-      left: 0;
-      position: absolute;
-      width: 100%; }
     header.major:before {
       top: 10px; }
     header.major:after {
@@ -466,7 +453,7 @@ input[type="button"],
 /* Box */
 .box {
   background: white;
-  border: solid 1px rgba(224, 224, 224, 0.75);
+  border-top: solid 1px rgba(224, 224, 224, 0.75);
   margin-bottom: 2em;
   padding: 3.5em; }
   .box.alt {
