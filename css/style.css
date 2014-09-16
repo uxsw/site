@@ -90,6 +90,9 @@ blockquote {
   font-style: italic;
   padding: 1em 0 1em 2em; }
 
+img {
+  max-width: 100%; }
+
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
