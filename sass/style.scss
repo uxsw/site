@@ -884,14 +884,14 @@
 		z-index: 1;
 		
 		&:before {
-			background: $color-border;
+			/*background: $color-border;
 			content: '';
 			height: 100%;
 			left: 50%;
 			position: absolute;
 			top: 0;
 			width: 1px;
-			z-index: -1;
+			z-index: -1;*/
 		}
 		
 		header.major,
