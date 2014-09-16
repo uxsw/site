@@ -198,13 +198,13 @@
 
 			&:before,
 			&:after {
-				background: $color-border;
+				/*background: $color-border;
 				content: '';
 				display: block;
 				height: 1px;
 				left: 0;
 				position: absolute;
-				width: 100%;
+				width: 100%;*/
 			}
 			
 			&:before {
@@ -787,14 +787,14 @@
 		text-align: center;
 
 		&:before {
-			background: $color-border;
+			/*background: $color-border;
 			content: '';
 			height: calc(460px + 6em);
 			left: 50%;
 			position: absolute;
 			top: 0;
 			width: 1px;
-			z-index: 0;
+			z-index: 0;*/
 		}
 		
 		a {

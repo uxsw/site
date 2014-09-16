@@ -152,13 +152,13 @@ footer {
     padding: 4em 0 0 0;
     position: relative; }
     footer.major:before, footer.major:after {
-      background: rgba(224, 224, 224, 0.75);
+      /*background: $color-border;
       content: '';
       display: block;
       height: 1px;
       left: 0;
       position: absolute;
-      width: 100%; }
+      width: 100%;*/ }
     footer.major:before {
       top: 10px; }
     footer.major:after {
@@ -616,14 +616,14 @@ input[type="button"],
   position: relative;
   text-align: center; }
   #footer:before {
-    background: rgba(224, 224, 224, 0.75);
+    /*background: $color-border;
     content: '';
     height: calc(460px + 6em);
     left: 50%;
     position: absolute;
     top: 0;
     width: 1px;
-    z-index: 0; }
+    z-index: 0;*/ }
   #footer a {
     color: white; }
   #footer strong, #footer b {
