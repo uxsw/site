@@ -131,7 +131,7 @@
 			border-color: $color-border;
 			border-style: solid;
 			border-top-width: 1px;
-			margin-bottom: 6em;
+			margin-bottom: 2em;
 			padding: 4em 0;
 			position: relative;
 			
@@ -193,7 +193,7 @@
 			border-style: solid;
 			border-top-width: 1px;
 			margin-top: 6em;
-			padding: 4em 0;
+			padding: 4em 0 0 0;
 			position: relative;
 
 			&:before,
@@ -300,8 +300,6 @@
 		position: relative;
 		
 		&:after {
-			@include vendor-property('transition', 'opacity 0.25s ease-in-out');
-			background-image: url('images/overlay.png');
 			content: '';
 			display: block;
 			height: 100%;
@@ -568,7 +566,7 @@
 	.box {
 		background: $color-bg;
 		border: solid 1px $color-border;
-		margin-bottom: 6em;
+		margin-bottom: 2em;
 		padding: 3.5em;
 		
 		&.alt {
@@ -577,7 +575,14 @@
 			padding: 0;
 		}
 	}
-
+	.box.container {
+		position: relative;
+		z-index: 999;
+	}
+.centred,
+.centered {
+	text-align: center;
+}
 /* Feature */
 
 	.feature {
@@ -603,8 +608,8 @@
 			
 			img {
 				display: block;
-				min-height: 100%;
-				min-width: 100%;
+				//min-height: 100%;
+				//min-width: 100%;
 				position: absolute;
 			}
 		}
@@ -639,8 +644,8 @@
 				float: left;
 				
 				img {
-					right: 0;
-					top: 0;
+					right: 25%;
+					top: 15%;
 				}
 			}
 			
@@ -656,8 +661,8 @@
 				float: right;
 				
 				img {
-					left: 0;
-					top: 0;
+					left: 25%;
+					top: 15%;
 				}
 			}
 
@@ -695,12 +700,7 @@
 			width: 1px;
 			z-index: 0;
 		}
-		
-		&:before {
-			height: calc(100% - 50px);
-			opacity: 0.15;
-			top: 0;
-		}
+	
 
 		&:after {
 			bottom: 0;
