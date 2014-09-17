@@ -93,6 +93,9 @@ blockquote {
 img {
   max-width: 100%; }
 
+.button {
+  margin-top: 1em; }
+
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
@@ -155,6 +158,10 @@ footer {
       bottom: 10px; }
 
 /* Form */
+form .clear {
+  text-align: left;
+  margin-top: 1em; }
+
 label {
   display: block;
   color: #5b5b5b;
@@ -163,7 +170,8 @@ label {
   letter-spacing: 0.125em;
   line-height: 1.75em;
   text-transform: uppercase;
-  margin: 0 0 0.5em 0; }
+  margin: 1em 0 0 0;
+  text-align: left; }
 
 input[type="text"],
 input[type="password"],
@@ -490,7 +498,7 @@ input[type="button"],
     width: 50%; }
     .feature .image img {
       display: block;
-      position: absolute; }
+      margin: 0 auto; }
   .feature:before {
     background: blue;
     content: '';
@@ -510,9 +518,9 @@ input[type="button"],
     text-align: left; }
     .feature.left .image {
       float: left; }
-      .feature.left .image img {
-        right: 25%;
-        top: 15%; }
+      @media screen and (min-width: 641px) {
+        .feature.left .image img {
+          top: 15%; } }
     .feature.left .content {
       padding-right: 0; }
   .feature.right {
@@ -520,8 +528,8 @@ input[type="button"],
     .feature.right .image {
       float: right; }
       .feature.right .image img {
-        left: 25%;
-        top: 15%; }
+        left: 0;
+        top: 0; }
     .feature.right .content {
       padding-left: 0; }
   .feature.long .content {
