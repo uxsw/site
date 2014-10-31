@@ -45,6 +45,9 @@
 		transition: color .2s ease-in-out;
 	}
 	img { max-width: 100%; }
+	.supporter-logo {
+		width: 120px;
+	}
 	
 		a:hover
 		{
