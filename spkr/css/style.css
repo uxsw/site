@@ -44,6 +44,7 @@
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
 	}
+	img { max-width: 100%; }
 	
 		a:hover
 		{
