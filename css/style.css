@@ -756,7 +756,23 @@
 /***********************************\
  UXSW
 \***********************************/
+.speaker-long {
+	text-align: left;
+	font-size: 1.2em;
+}
+.speaker-long p {
+	margin: 1em 0;
+}
+.speaker-long ul {
+	list-style: disc;
+}
 
+.speaker-long .bio-img {
+	width: 200px;
+	border-radius: 50%;
+	display: block;
+	margin: 1em auto;
+}
 .speakers .bio-img {
 	/*speaker profile images */
 	max-width: 100%;
@@ -811,6 +827,10 @@
 	float: none;
 	width: 100%;
 }
+.speaker-long .bio-img {
+	float: left;
+	margin: 0 1em 1em 0;
+}
 .speakers .bio {
 	float: none;
 	width: 100%;
@@ -822,6 +842,9 @@
 }
 .speakers .box {
 	text-align: center;
+}
+.speaker-long {
+	margin: 0 10em;
 }
 }
 @media (max-width:380px) {
