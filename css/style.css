@@ -821,6 +821,8 @@
 	width: 80%;
 	margin: 0 auto;
 }
+
+
 @media (min-width:737px) {
 	.speakers .bio-img {
 	/*speaker profile images */
@@ -845,6 +847,22 @@
 }
 .speaker-long {
 	margin: 0 10em;
+}
+
+.sponsor-list {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid silver;
+}
+.sponsor-list li {
+	width: 40%;
+	float: left;
+}
+.sponsor-list li:first-of-type {
+	margin-left: 10%;
+}
+.sponsor-list li:last-of-type {
+	margin-right: 10%;
 }
 }
 @media (max-width:380px) {
